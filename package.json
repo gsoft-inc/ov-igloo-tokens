@@ -1,0 +1,33 @@
+{
+  "name": "@igloo-ui/tokens",
+  "version": "0.0.0",
+  "description": "Design tokens are all the values needed to construct and maintain a design system — spacing, color, typography, object styles, animation, etc.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "node src/tokens.js",
+    "lint": "eslint src/*.js",
+    "format": "prettier -w src/*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gsoft-inc/igloo-ui-tokens.git"
+  },
+  "keywords": [
+    "design tokens",
+    "igloo-ui"
+  ],
+  "author": "Officevibe",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/gsoft-inc/igloo-ui-tokens/issues"
+  },
+  "homepage": "https://github.com/gsoft-inc/igloo-ui-tokens#readme",
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "2.3.1",
+    "theo": "^8.1.5"
+  }
+}
