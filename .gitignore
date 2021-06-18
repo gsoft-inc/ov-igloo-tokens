@@ -118,4 +118,5 @@ dist
 .pnp.*
 
 # library build output
-dist
+build
+lib
