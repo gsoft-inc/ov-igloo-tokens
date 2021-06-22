@@ -5,8 +5,8 @@ import StyleDictionary from 'style-dictionary';
 const dirname = path.dirname('');
 
 function copyFontFace() {
-  const sourceFile = path.join(dirname, 'assets/fonts/', 'typography.css');
-  const outputFile = path.join(dirname, 'build', 'typorgraphy.css');
+  const sourceFile = path.join(dirname, 'assets/fonts/', 'fonts.css');
+  const outputFile = path.join(dirname, 'build', 'fonts.css');
 
   fs.copyFile(sourceFile, outputFile, function (err) {
     if (err) {
