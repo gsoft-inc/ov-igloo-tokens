@@ -1,8 +1,10 @@
 {
   "name": "@igloo-ui/tokens",
   "version": "0.0.0-alpha-3",
-  "description": "Design tokens are all the values needed to construct and maintain a design system — spacing, color, typography, object styles, animation, etc.",
-  "main": "build/index.js",
+  "description": "Igloo tokens are all the values needed to construct and maintain a design system — spacing, color, fonts, opacity, etc..",
+  "main": "dist/index.js",
+  "style": "dist/variables.css",
+  "sass": "dist/_variables.scss",
   "type": "module",
   "scripts": {
     "build": "node ./build.js",
