@@ -23,7 +23,7 @@ yarn add @igloo-ui/tokens
 In Sass, you can import the files by doing:
 
 ```
-@import '@igloo-ui/tokens/build/_variables.scss';
+@import '@igloo-ui/tokens/dist/_variables.scss';
 ```
 
 ### CSS
@@ -31,7 +31,7 @@ In Sass, you can import the files by doing:
 In CSS, you can import the files by doing:
 
 ```
-@import '@igloo-ui/tokens/build/variables.scss';
+@import '@igloo-ui/tokens/dist/variables.scss';
 ```
 
 ### Fonts
@@ -39,5 +39,5 @@ In CSS, you can import the files by doing:
 You can also do it via CSS Import:
 
 ```
-@import '@igloo-ui/tokens/build/fonts.css';
+@import '@igloo-ui/tokens/dist/fonts.css';
 ```

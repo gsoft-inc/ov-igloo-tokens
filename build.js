@@ -6,7 +6,7 @@ const dirname = path.dirname('');
 
 function copyFontFace() {
   const sourceFile = path.join(dirname, 'assets/fonts/', 'fonts.css');
-  const outputFile = path.join(dirname, 'build', 'fonts.css');
+  const outputFile = path.join(dirname, 'dist', 'fonts.css');
 
   fs.copyFile(sourceFile, outputFile, function (err) {
     if (err) {
