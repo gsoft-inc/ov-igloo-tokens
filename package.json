@@ -1,12 +1,10 @@
 {
   "name": "@igloo-ui/tokens",
-  "version": "0.0.0",
+  "version": "0.0.0-alpha",
   "description": "Design tokens are all the values needed to construct and maintain a design system — spacing, color, typography, object styles, animation, etc.",
   "main": "build/index.js",
   "type": "module",
-  "private": true,
   "scripts": {
-    "postinstall": "husky install",
     "build": "node ./build.js",
     "prepublishOnly": "yarn build",
     "clean": "rm -rf build",
@@ -22,7 +20,7 @@
     "design tokens",
     "igloo-ui"
   ],
-  "author": "Officevibe",
+  "author": "Groupe Officevibe Inc.",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/gsoft-inc/igloo-ui-tokens/issues"
