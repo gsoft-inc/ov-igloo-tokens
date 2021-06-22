@@ -12,5 +12,73 @@
       "800": { "value": "#052C73" },
       "900": { "value": "#011F44" }
     }
+  },
+  "sky": {
+    "50": { "value": "#E5F4FB" },
+    "100": { "value": "#B2DDF2" },
+    "200": { "value": "#7FC6EA" }
+  },
+  "dandelion": {
+    "50": { "value": "#FEF8E2" },
+    "100": { "value": "#FDEBB6" },
+    "200": { "value": "#FDDE88" },
+    "300": { "value": "#FCD35A" },
+    "400": { "value": "#FBC73B" },
+    "500": { "value": "#FABF2C" },
+    "600": { "value": "#F9B127" }
+  },
+  "coral": {
+    "50": { "value": "#F9EEEF" },
+    "100": { "value": "#FFD8D2" },
+    "200": { "value": "#FFC3BA" },
+    "300": { "value": "#FF988B" },
+    "400": { "value": "#FF7160" },
+    "500": { "value": "#F96155" },
+    "600": { "value": "#E24D48" },
+    "700": { "value": "#BD494A" },
+    "800": { "value": "#9A3842" },
+    "900": { "value": "#6B2837" },
+    "950": { "value": "#422439" }
+  },
+  "seaweed": {
+    "50": { "value": "#D6F9F3" },
+    "200": { "value": "#9FE9DC" },
+    "300": { "value": "#85D9C9" },
+    "400": { "value": "#30C9AD" },
+    "500": { "value": "#0CBA9D" },
+    "600": { "value": "#00A587" },
+    "700": { "value": "#00977A" },
+    "800": { "value": "#00765B" },
+    "900": { "value": "#00593F" }
+  },
+  "strawberry": {
+    "fields": {
+      "50": { "value": "#F9E4E6" },
+      "100": { "value": "#F1BBC1" },
+      "200": { "value": "#E7919A" },
+      "300": { "value": "#DB6A74" }
+    }
+  },
+  "creamsicle": {
+    "25": { "value": "#F9F7F6" },
+    "50": { "value": "#FFF6EB" },
+    "75": { "value": "#FFF0DF" },
+    "100": { "value": "#FFE3C2" },
+    "150": { "value": "#FFCB96" },
+    "200": { "value": "#FFA878" },
+    "300": { "value": "#FA8742" }
+  },
+  "grey": {
+    "95": { "value": "#F8F8F8" },
+    "100": { "value": "#F7F9FA" },
+    "200": { "value": "#EFF1F5" },
+    "250": { "value": "#E8EBEF" },
+    "300": { "value": "#D5D9DE" },
+    "400": { "value": "#BDC6D0" },
+    "500": { "value": "#838B95" },
+    "600": { "value": "#606B79" },
+    "700": { "value": "#32455B" },
+    "800": { "value": "#233043" },
+    "900": { "value": "#19222F" }
   }
 }
