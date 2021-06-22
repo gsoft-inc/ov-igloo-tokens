@@ -2,8 +2,8 @@
   "source": ["tokens/**/*.json"],
   "platforms": {
     "scss": {
-      "transformGroup": "scss",
-      "buildPath": "build/scss/",
+      "transformGroup": "custom/scss",
+      "buildPath": "build/",
       "files": [
         {
           "destination": "_variables.scss",
@@ -12,8 +12,8 @@
       ]
     },
     "css": {
-      "transformGroup": "css",
-      "buildPath": "build/css/",
+      "transformGroup": "custom/css",
+      "buildPath": "build/",
       "files": [
         {
           "destination": "variables.css",
