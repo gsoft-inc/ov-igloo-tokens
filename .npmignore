@@ -1,11 +1,13 @@
 .github
 .husky
 .eslintrc.cjs
-.prettierignore 
 .prettierrc.json
 
 tokens
+assets
 node_modules
 
 config.json
-yarn.lockyar
+build.js
+yarn.lock
+yarn-error.log

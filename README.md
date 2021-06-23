@@ -1,6 +1,6 @@
-# `Igloo - Tokens`
+# `@igloo/tokens`
 
-Design tokens are all the values needed to construct and maintain a design system — spacing, color, fonts, opacity, etc..
+Igloo tokens are all the values needed to construct and maintain a design system — spacing, color, fonts, opacity, etc..
 
 ## Getting started
 
@@ -23,7 +23,7 @@ yarn add @igloo-ui/tokens
 In Sass, you can import the files by doing:
 
 ```
-@import '@igloo-ui/build/scss/_variables.scss';
+@import '@igloo-ui/tokens/dist/_variables.scss';
 ```
 
 ### CSS
@@ -31,7 +31,15 @@ In Sass, you can import the files by doing:
 In CSS, you can import the files by doing:
 
 ```
-@import '@igloo-ui/build/css/variables.scss';
+@import '@igloo-ui/tokens/dist/variables.scss';
+```
+
+### Fonts
+
+You can also do it via CSS Import:
+
+```
+@import '@igloo-ui/tokens/dist/fonts.css';
 ```
 
 

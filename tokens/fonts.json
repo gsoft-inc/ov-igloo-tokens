@@ -1,0 +1,51 @@
+{
+  "font": {
+    "family": {
+      "primary": {
+        "value": "Inter",
+        "path": ["primary", "font", "family"],
+        "original": {
+          "value": "{font.family.primary.value}"
+        }
+      },
+      "secondary": {
+        "value": "GT-Walsheim",
+        "path": ["secondary", "font", "family"],
+        "original": {
+          "value": "{font.family.secondary.value}"
+        }
+      }
+    },
+    "weight": {
+      "regular": { "value": "normal" },
+      "medium": { "value": "500" },
+      "semiBold": { "value": "600" },
+      "bold": { "value": "700" }
+    },
+    "size": {
+      "1": { "value": "10" },
+      "2": { "value": "12" },
+      "3": { "value": "14" },
+      "4": { "value": "16" },
+      "5": { "value": "18" },
+      "6": { "value": "22" },
+      "7": { "value": "24" },
+      "8": { "value": "30" },
+      "9": { "value": "32" },
+      "10": { "value": "48" }
+    }
+  },
+  "line": {
+    "height": {
+      "xxxl": { "value": "1.5" },
+      "xxl": { "value": "1.4285" },
+      "xl": { "value": "1.33" },
+      "lg": { "value": "1.27" },
+      "md": { "value": "1.25" },
+      "sm": { "value": "1.2" },
+      "xs": { "value": "1.166" },
+      "xxs": { "value": "1.14" },
+      "xxxs": { "value": "1.125" }
+    }
+  }
+}
