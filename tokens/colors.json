@@ -1,17 +1,15 @@
 {
-  "electric": {
-    "blue": {
-      "50": { "value": "#EDF3FE" },
-      "100": { "value": "#C1D3FE" },
-      "200": { "value": "#95B3FE" },
-      "300": { "value": "#6893FF" },
-      "400": { "value": "#3C73FF" },
-      "500": { "value": "#1053FF" },
-      "600": { "value": "#0C46D0" },
-      "700": { "value": "#0939A2" },
-      "800": { "value": "#052C73" },
-      "900": { "value": "#011F44" }
-    }
+  "electric-blue": {
+    "50": { "value": "#EDF3FE" },
+    "100": { "value": "#C1D3FE" },
+    "200": { "value": "#95B3FE" },
+    "300": { "value": "#6893FF" },
+    "400": { "value": "#3C73FF" },
+    "500": { "value": "#1053FF" },
+    "600": { "value": "#0C46D0" },
+    "700": { "value": "#0939A2" },
+    "800": { "value": "#052C73" },
+    "900": { "value": "#011F44" }
   },
   "sky": {
     "50": { "value": "#E5F4FB" },
@@ -51,13 +49,11 @@
     "800": { "value": "#00765B" },
     "900": { "value": "#00593F" }
   },
-  "strawberry": {
-    "fields": {
-      "50": { "value": "#F9E4E6" },
-      "100": { "value": "#F1BBC1" },
-      "200": { "value": "#E7919A" },
-      "300": { "value": "#DB6A74" }
-    }
+  "strawberry-fields": {
+    "50": { "value": "#F9E4E6" },
+    "100": { "value": "#F1BBC1" },
+    "200": { "value": "#E7919A" },
+    "300": { "value": "#DB6A74" }
   },
   "creamsicle": {
     "25": { "value": "#F9F7F6" },
