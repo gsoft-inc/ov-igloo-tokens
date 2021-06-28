@@ -1,5 +1,6 @@
 .github
 .husky
+.changeset
 .eslintrc.cjs
 .prettierrc.json
 

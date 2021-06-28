@@ -8,11 +8,12 @@
   "type": "module",
   "scripts": {
     "build": "node ./build.js",
-    "prepublishOnly": "yarn build",
     "clean": "rm -rf dist",
-    "lint": "eslint src/*.js",
+    "lint": "eslint *.js",
     "format": "prettier -w src/*",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "yarn build && changeset publish"
   },
   "repository": {
     "type": "git",
@@ -29,11 +30,11 @@
   },
   "homepage": "https://github.com/gsoft-inc/igloo-ui-tokens#readme",
   "devDependencies": {
+    "@changesets/cli": "^2.16.0",
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
     "eslint": "^7.28.0",
     "eslint-config-prettier": "^8.3.0",
-    "husky": "^6.0.0",
     "prettier": "2.3.1",
     "style-dictionary": "^3.0.1"
   },
