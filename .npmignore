@@ -8,6 +8,7 @@
 tokens
 assets
 docs
+storybook-static
 node_modules
 
 config.json

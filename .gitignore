@@ -120,3 +120,4 @@ dist
 # library build output
 build
 lib
+storybook-static
