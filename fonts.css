@@ -1,0 +1,114 @@
+@font-face {
+  font-weight: 100;
+  font-family: 'Inter';
+  font-style: normal;
+  src: url('https://cdn.officevibe.com/assets/Fonts/Inter-Thin.ttf');
+}
+
+@font-face {
+  font-weight: 200;
+  font-family: 'Inter';
+  font-style: normal;
+  src: url('https://cdn.officevibe.com/assets/Fonts/Inter-ExtraLight.ttf');
+}
+
+@font-face {
+  font-weight: 300;
+  font-family: 'Inter';
+  font-style: normal;
+  src: url('https://cdn.officevibe.com/assets/Fonts/Inter-Light.ttf');
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: 'Inter';
+  font-style: normal;
+  src: url('https://cdn.officevibe.com/assets/Fonts/Inter-Regular.ttf');
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: 'Inter';
+  font-style: normal;
+  src: url('https://cdn.officevibe.com/assets/Fonts/Inter-Medium.ttf');
+}
+
+@font-face {
+  font-weight: 600;
+  font-family: 'Inter';
+  font-style: normal;
+  src: url('https://cdn.officevibe.com/assets/Fonts/Inter-SemiBold.ttf');
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: 'Inter';
+  font-style: normal;
+  src: url('https://cdn.officevibe.com/assets/Fonts/Inter-Bold.ttf');
+}
+
+@font-face {
+  font-weight: 800;
+  font-family: 'Inter';
+  font-style: normal;
+  src: url('https://cdn.officevibe.com/assets/Fonts/Inter-ExtraBold.ttf');
+}
+
+@font-face {
+  font-weight: 900;
+  font-family: 'Inter';
+  font-style: normal;
+  src: url('https://cdn.officevibe.com/assets/Fonts/Inter-Black.ttf');
+}
+
+@font-face {
+  font-weight: 300;
+  font-family: 'GT-Walsheim';
+  font-style: normal;
+  src: url('https://cdn.officevibe.com/assets/Fonts/GT-Walsheim-Light.ttf');
+  src: url('https://cdn.officevibe.com/assets/Fonts/GT-Walsheim-Light.ttf')
+      format('truetype'),
+    url('https://cdn.officevibe.com/assets/Fonts/GT-Walsheim-Light.otf')
+      format('opentype'),
+    url('https://cdn.officevibe.com/assets/Fonts/GT-Walsheim-Light.woff')
+      format('woff');
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: 'GT-Walsheim';
+  font-style: normal;
+  src: url('https://cdn.officevibe.com/assets/Fonts/GT-Walsheim-Regular.ttf');
+  src: url('https://cdn.officevibe.com/assets/Fonts/GT-Walsheim-Regular.ttf')
+      format('truetype'),
+    url('https://cdn.officevibe.com/assets/Fonts/GT-Walsheim-Regular.otf')
+      format('opentype'),
+    url('https://cdn.officevibe.com/assets/Fonts/GT-Walsheim-Regular.woff')
+      format('woff');
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: 'GT-Walsheim';
+  font-style: normal;
+  src: url('https://cdn.officevibe.com/assets/Fonts/GT-Walsheim-Medium.ttf');
+  src: url('https://cdn.officevibe.com/assets/Fonts/GT-Walsheim-Medium.ttf')
+      format('truetype'),
+    url('https://cdn.officevibe.com/assets/Fonts/GT-Walsheim-Medium.otf')
+      format('opentype'),
+    url('https://cdn.officevibe.com/assets/Fonts/GT-Walsheim-Medium.woff')
+      format('woff');
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: 'GT-Walsheim';
+  font-style: normal;
+  src: url('https://cdn.officevibe.com/assets/Fonts/GT-Walsheim-Bold.ttf');
+  src: url('https://cdn.officevibe.com/assets/Fonts/GT-Walsheim-Bold.ttf')
+      format('truetype'),
+    url('https://cdn.officevibe.com/assets/Fonts/GT-Walsheim-Bold.otf')
+      format('opentype'),
+    url('https://cdn.officevibe.com/assets/Fonts/GT-Walsheim-Bold.woff')
+      format('woff');
+}
