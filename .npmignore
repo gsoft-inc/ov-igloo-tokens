@@ -3,9 +3,11 @@
 .changeset
 .eslintrc.cjs
 .prettierrc.json
+.DS_Store
 
 tokens
 assets
+docs
 node_modules
 
 config.json

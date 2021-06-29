@@ -13,7 +13,9 @@
     "format": "prettier -w src/*",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "yarn build && changeset publish"
+    "release": "yarn build && changeset publish",
+    "storybook": "start-storybook -s dist -p 6006 --no-manager-cache",
+    "build-storybook": "build-storybook -s dist"
   },
   "repository": {
     "type": "git",
@@ -30,12 +32,23 @@
   },
   "homepage": "https://github.com/gsoft-inc/igloo-ui-tokens#readme",
   "devDependencies": {
+    "@babel/core": "^7.14.6",
     "@changesets/cli": "^2.16.0",
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
+    "@storybook/addon-actions": "^6.3.1",
+    "@storybook/addon-essentials": "^6.3.1",
+    "@storybook/addon-links": "^6.3.1",
+    "@storybook/addons": "^6.3.1",
+    "@storybook/react": "^6.3.1",
+    "@storybook/theming": "^6.3.1",
+    "babel-loader": "^8.2.2",
     "eslint": "^7.28.0",
     "eslint-config-prettier": "^8.3.0",
     "prettier": "2.3.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "storybook-design-token": "^1.0.1",
     "style-dictionary": "^3.0.1"
   },
   "commitlint": {
