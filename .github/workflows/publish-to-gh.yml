@@ -20,6 +20,7 @@ jobs:
       - run: yarn lint
 
   publish:
+    needs: lint
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -39,4 +40,4 @@ jobs:
         with:
           dir: storybook-static
           branch: gh-pages
-          token: ${{ secrets.ACCESS_TOKEN }}
+          token: ${{ secrets.github_token }}
