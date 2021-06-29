@@ -1,4 +1,4 @@
-# `@igloo/tokens`
+# `@igloo-ui/tokens`
 
 Igloo tokens are all the values needed to construct and maintain a design system — spacing, color, fonts, opacity, etc..
 
@@ -41,7 +41,6 @@ You can also do it via CSS Import:
 ```
 @import '@igloo-ui/tokens/dist/fonts.css';
 ```
-
 
 ## License
 
