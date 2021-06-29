@@ -1,12 +1,8 @@
 name: Publish to GitHub Pages
 
-# on:
-#   release:
-#     types: [created]
 on:
-  push:
-    branches:
-      - feature/documentation
+  release:
+    types: [created]
 
 jobs:
   lint:
