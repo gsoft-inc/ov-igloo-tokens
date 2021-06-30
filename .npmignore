@@ -3,9 +3,12 @@
 .changeset
 .eslintrc.cjs
 .prettierrc.json
+.DS_Store
 
 tokens
 assets
+docs
+storybook-static
 node_modules
 
 config.json
