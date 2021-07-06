@@ -14,9 +14,9 @@
     "changeset": "changeset",
     "version-packages": "changeset version",
     "release": "yarn build && changeset publish",
-    "storybook": "start-storybook -s dist -p 6006 --no-manager-cache",
-    "build-storybook": "build-storybook -s dist",
-    "deploy:doc": "yarn build && gh-pages -d storybook-static"
+    "storybook": "start-storybook -s assets -p 6006 --no-manager-cache",
+    "build-storybook": "build-storybook -s assets",
+    "deploy:doc": "yarn build-storybook && gh-pages -d storybook-static"
   },
   "repository": {
     "type": "git",
