@@ -3,6 +3,16 @@ import path from 'path';
 import StyleDictionary from 'style-dictionary';
 
 const dirname = path.dirname('');
+const GROUPS = [
+  'color',
+  'fontFamily',
+  'fontSize',
+  'fontWeight',
+  'lineHeight',
+  'shadow',
+  'spacing',
+  'borderRadius',
+];
 
 function copyFontFace() {
   const sourceFile = path.join(dirname, 'assets/fonts/', 'fonts.css');
@@ -18,6 +28,37 @@ function copyFontFace() {
 }
 
 console.log('\nBuild started...');
+
+// REGISTER THE CUSTOM FORMAT
+
+StyleDictionary.registerFormat({
+  name: 'custom/doc',
+  formatter: function ({ dictionary }) {
+    const filteredTokens = GROUPS.map(function (group) {
+      const formatedGroup = group.charAt(0).toUpperCase() + group.slice(1);
+      const header = `\n/**\n * @tokens ${formatedGroup}\n * @presenter ${formatedGroup} \n */\n`;
+      const datas = dictionary.allTokens.filter(
+        (token) => token.group === group
+      );
+
+      return {
+        header,
+        datas,
+      };
+    });
+
+    return filteredTokens
+      .map(function (tokens) {
+        return (
+          tokens.header +
+          tokens.datas
+            .map((props) => `$${props.name}: ${props.value};`)
+            .join('\n')
+        );
+      })
+      .join('\n');
+  },
+});
 
 // REGISTER THE CUSTOM TRANFORMS
 

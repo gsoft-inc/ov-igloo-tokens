@@ -20,6 +20,16 @@
           "format": "css/variables"
         }
       ]
+    },
+    "docs": {
+      "transformGroup": "custom/scss",
+      "buildPath": "docs/",
+      "files": [
+        {
+          "destination": "tokens.scss",
+          "format": "custom/doc"
+        }
+      ]
     }
   }
 }
