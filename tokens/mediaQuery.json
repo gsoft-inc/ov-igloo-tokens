@@ -1,0 +1,9 @@
+{
+  "breakpoints": {
+    "sm": { "value": "600" },
+    "md": { "value": "768" },
+    "lg": { "value": "992" },
+    "xl": { "value": "1200" },
+    "xxl": { "value": "1440" }
+  }
+}

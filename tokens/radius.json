@@ -1,0 +1,10 @@
+{
+  "border-radius": {
+    "none": { "value": "0" },
+    "xs": { "value": "2" },
+    "sm": { "value": "4" },
+    "md": { "value": "6" },
+    "xl": { "value": "16" },
+    "card": { "value": "{border-radius.sm.value}" }
+  }
+}
