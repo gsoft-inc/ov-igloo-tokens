@@ -66,12 +66,19 @@ StyleDictionary.registerTransform({
   name: 'pxToRem',
   type: 'value',
   matcher: function (token) {
-    return token.attributes.type === 'size';
+    return (
+      token.attributes.type === 'size' ||
+      token.attributes.category === 'space' ||
+      token.attributes.category === 'border-radius'
+    );
   },
   transformer: function (token) {
+    if (parseInt(token.original.value) === 0) {
+      return token.original.value;
+    }
+
     const base = 10;
-    const size = parseFloat(token.value) / base;
-    return `${size}rem`;
+    return `${parseInt(token.value) / base}rem`;
   },
 });
 
