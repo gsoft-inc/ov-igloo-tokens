@@ -1,11 +1,7 @@
-// Do not edit directly
-// Generated on Mon, 28 Jun 2021 16:09:08 GMT
-
 /**
-  * @tokens Colors
-  * @presenter Color
-  */
-
+ * @tokens Color
+ * @presenter Color 
+ */
 $electric-blue-50: #edf3fe;
 $electric-blue-100: #c1d3fe;
 $electric-blue-200: #95b3fe;
@@ -114,3 +110,65 @@ $line-height-sm: 1.2;
 $line-height-xs: 1.166;
 $line-height-xxs: 1.14;
 $line-height-xxxs: 1.125;
+
+/**
+ * @tokens Shadow
+ * @presenter Shadow 
+ */
+$shadow-6: 0 0.1rem 0.6rem 0 rgba(#233043, 0.1);
+$shadow-12: 0 0.4rem 1rem 0.4rem rgba(#233043, 0.1);
+$shadow-24: 0 1rem 1.8rem 0.8rem rgba(#233043, 0.1);
+
+/**
+ * @tokens Spacing
+ * @presenter Spacing 
+ */
+$space-0: 0;
+$space-1: 0.4rem;
+$space-2: 0.8rem;
+$space-3: 1.6rem;
+$space-4: 2.4rem;
+$space-5: 3.2rem;
+$space-6: 4rem;
+$space-7: 4.8rem;
+$space-8: 6.4rem;
+$space-9: 8rem;
+$space-10: 9.6rem;
+
+/**
+ * @tokens BorderRadius
+ * @presenter BorderRadius 
+ */
+$border-radius-none: 0;
+$border-radius-xs: 0.2rem;
+$border-radius-sm: 0.4rem;
+$border-radius-md: 0.6rem;
+$border-radius-xl: 1.6rem;
+$border-radius-card: 0.4rem;
+
+/**
+ * @tokens ZIndex
+ */
+$z-index-0: 0;
+$z-index-10: 10;
+$z-index-20: 20;
+$z-index-30: 30;
+$z-index-40: 40;
+$z-index-50: 50;
+$z-index-60: 60;
+$z-index-70: 70;
+$z-index-80: 80;
+$z-index-90: 90;
+$z-index-100: 100;
+$z-index-min: -1;
+$z-index-max: 999;
+$z-index-auto: auto;
+
+/**
+ * @tokens MediaQuery
+ */
+$breakpoints-sm: 600px;
+$breakpoints-md: 768px;
+$breakpoints-lg: 992px;
+$breakpoints-xl: 1200px;
+$breakpoints-xxl: 1440px;
