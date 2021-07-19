@@ -41,16 +41,30 @@ StyleDictionary.registerTransform({
   },
 });
 
+StyleDictionary.registerTransform({
+  name: 'mqPx',
+  type: 'value',
+  matcher: function (token) {
+    return token.attributes.category === 'breakpoints';
+  },
+  transformer: function (token) {
+    return `${token.value}px`;
+  },
+});
+
 // REGISTER THE CUSTOM TRANFORM GROUPS
 
 StyleDictionary.registerTransformGroup({
   name: 'custom/scss',
-  transforms: StyleDictionary.transformGroup['scss'].concat(['pxToRem']),
+  transforms: StyleDictionary.transformGroup['scss'].concat([
+    'pxToRem',
+    'mqPx',
+  ]),
 });
 
 StyleDictionary.registerTransformGroup({
   name: 'custom/css',
-  transforms: StyleDictionary.transformGroup['css'].concat(['pxToRem']),
+  transforms: StyleDictionary.transformGroup['css'].concat(['pxToRem', 'mqPx']),
 });
 
 // APPLY THE CONFIGURATION
