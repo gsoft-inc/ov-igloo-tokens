@@ -1,7 +1,16 @@
 {
   "shadow": {
-    "6": { "value": "0 0.1rem 0.6rem 0 rgba({grey.800.value}, 0.1)" },
-    "12": { "value": "0 0.4rem 1rem 0.4rem rgba({grey.800.value}, 0.1)" },
-    "24": { "value": "0 1rem 1.8rem 0.8rem rgba({grey.800.value}, 0.1)" }
+    "6": {
+      "value": "0 0.1rem 0.6rem 0 rgba({grey.800.value}, 0.1)",
+      "group": "shadow"
+    },
+    "12": {
+      "value": "0 0.4rem 1rem 0.4rem rgba({grey.800.value}, 0.1)",
+      "group": "shadow"
+    },
+    "24": {
+      "value": "0 1rem 1.8rem 0.8rem rgba({grey.800.value}, 0.1)",
+      "group": "shadow"
+    }
   }
 }

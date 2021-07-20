@@ -1,9 +1,9 @@
 {
   "breakpoints": {
-    "sm": { "value": "600" },
-    "md": { "value": "768" },
-    "lg": { "value": "992" },
-    "xl": { "value": "1200" },
-    "xxl": { "value": "1440" }
+    "sm": { "value": "600", "group": "mediaQuery" },
+    "md": { "value": "768", "group": "mediaQuery" },
+    "lg": { "value": "992", "group": "mediaQuery" },
+    "xl": { "value": "1200", "group": "mediaQuery" },
+    "xxl": { "value": "1440", "group": "mediaQuery" }
   }
 }

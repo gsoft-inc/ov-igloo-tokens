@@ -1,18 +1,18 @@
 {
   "z-index": {
-    "min": { "value": "-1" },
-    "0": { "value": "0" },
-    "10": { "value": "10" },
-    "20": { "value": "20" },
-    "30": { "value": "30" },
-    "40": { "value": "40" },
-    "50": { "value": "50" },
-    "60": { "value": "60" },
-    "70": { "value": "70" },
-    "90": { "value": "90" },
-    "80": { "value": "80" },
-    "100": { "value": "100" },
-    "max": { "value": "999" },
-    "auto": { "value": "auto" }
+    "min": { "value": "-1", "group": "zIndex" },
+    "0": { "value": "0", "group": "zIndex" },
+    "10": { "value": "10", "group": "zIndex" },
+    "20": { "value": "20", "group": "zIndex" },
+    "30": { "value": "30", "group": "zIndex" },
+    "40": { "value": "40", "group": "zIndex" },
+    "50": { "value": "50", "group": "zIndex" },
+    "60": { "value": "60", "group": "zIndex" },
+    "70": { "value": "70", "group": "zIndex" },
+    "90": { "value": "90", "group": "zIndex" },
+    "80": { "value": "80", "group": "zIndex" },
+    "100": { "value": "100", "group": "zIndex" },
+    "max": { "value": "999", "group": "zIndex" },
+    "auto": { "value": "auto", "group": "zIndex" }
   }
 }

@@ -30,6 +30,16 @@
           "format": "custom/doc"
         }
       ]
+    },
+    "json": {
+      "transformGroup": "custom/scss",
+      "buildPath": "docs/",
+      "files": [
+        {
+          "destination": "tokens.json",
+          "format": "json"
+        }
+      ]
     }
   }
 }

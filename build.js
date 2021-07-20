@@ -3,18 +3,8 @@ import path from 'path';
 import StyleDictionary from 'style-dictionary';
 
 const dirname = path.dirname('');
-const GROUPS = [
-  'color',
-  'fontFamily',
-  'fontSize',
-  'fontWeight',
-  'lineHeight',
-  'shadow',
-  'spacing',
-  'borderRadius',
-];
 
-function copyFontFace() {
+const copyFontFace = () => {
   const sourceFile = path.join(dirname, 'assets/fonts/', 'fonts.css');
   const outputFile = path.join(dirname, 'dist', 'fonts.css');
 
@@ -25,38 +15,86 @@ function copyFontFace() {
       console.log('🎉 Success! fonts copied\n');
     }
   });
-}
+};
+
+const handleGroups = (datas) => {
+  if (!datas) {
+    return;
+  }
+
+  const groups = datas.map((token) => token.group);
+  const filtredGroups = groups.filter((group) => group !== undefined);
+  const uniqueGroups = [...new Set(filtredGroups)];
+
+  return uniqueGroups;
+};
 
 console.log('\nBuild started...');
 
 // REGISTER THE CUSTOM FORMAT
 
 StyleDictionary.registerFormat({
+  name: 'json',
+  formatter: function ({ dictionary }) {
+    const groups = handleGroups(dictionary.allTokens);
+
+    const formatTokens = (tokens, group) => {
+      const formatedTokens = tokens.map((token) => {
+        const result = {};
+        result[token.name] = token.value;
+
+        return result;
+      });
+
+      return { [group]: formatedTokens };
+    };
+
+    const datas = groups.map((group) => {
+      const data = dictionary.allTokens.filter((token) => {
+        return token.group === group;
+      });
+
+      return formatTokens(data, group);
+    });
+
+    return JSON.stringify(datas, null, 2);
+  },
+});
+
+StyleDictionary.registerFormat({
   name: 'custom/doc',
   formatter: function ({ dictionary }) {
-    const filteredTokens = GROUPS.map(function (group) {
+    const groups = handleGroups(dictionary.allTokens);
+
+    const datas = groups.map((group) => {
       const formatedGroup = group.charAt(0).toUpperCase() + group.slice(1);
-      const header = `\n/**\n * @tokens ${formatedGroup}\n * @presenter ${formatedGroup} \n */\n`;
-      const datas = dictionary.allTokens.filter(
-        (token) => token.group === group
-      );
+      let header = `\n/**\n * @tokens ${formatedGroup}\n * @presenter ${formatedGroup} \n */\n`;
+      const data = dictionary.allTokens.filter((token) => {
+        return token.group === group;
+      });
+
+      if (group === 'mediaQuery' || group === 'shadow' || group === 'zIndex') {
+        header = `\n/**\n * @tokens ${formatedGroup} \n */\n`;
+      }
 
       return {
         header,
-        datas,
+        data,
       };
     });
 
-    return filteredTokens
+    const storybookDocs = datas
       .map(function (tokens) {
         return (
           tokens.header +
-          tokens.datas
+          tokens.data
             .map((props) => `$${props.name}: ${props.value};`)
             .join('\n')
         );
       })
       .join('\n');
+
+    return storybookDocs;
   },
 });
 
