@@ -1,91 +1,91 @@
+
 /**
  * @tokens Color
  * @presenter Color 
  */
-$electric-blue-50: #edf3fe;
-$electric-blue-100: #c1d3fe;
-$electric-blue-200: #95b3fe;
-$electric-blue-300: #6893ff;
-$electric-blue-400: #3c73ff;
-$electric-blue-500: #1053ff;
-$electric-blue-600: #0c46d0;
-$electric-blue-700: #0939a2;
-$electric-blue-800: #052c73;
-$electric-blue-900: #011f44;
-$sky-50: #e5f4fb;
-$sky-100: #b2ddf2;
-$sky-200: #7fc6ea;
-$dandelion-50: #fef8e2;
-$dandelion-100: #fdebb6;
-$dandelion-200: #fdde88;
-$dandelion-300: #fcd35a;
-$dandelion-400: #fbc73b;
-$dandelion-500: #fabf2c;
-$dandelion-600: #f9b127;
-$coral-50: #f9eeef;
-$coral-100: #ffd8d2;
-$coral-200: #ffc3ba;
-$coral-300: #ff988b;
-$coral-400: #ff7160;
-$coral-500: #f96155;
-$coral-600: #e24d48;
-$coral-700: #bd494a;
-$coral-800: #9a3842;
-$coral-900: #6b2837;
+$electric-blue-50: #EDF3FE;
+$electric-blue-100: #C1D3FE;
+$electric-blue-200: #95B3FE;
+$electric-blue-300: #6893FF;
+$electric-blue-400: #3C73FF;
+$electric-blue-500: #1053FF;
+$electric-blue-600: #0C46D0;
+$electric-blue-700: #0939A2;
+$electric-blue-800: #052C73;
+$electric-blue-900: #011F44;
+$sky-50: #E5F4FB;
+$sky-100: #B2DDF2;
+$sky-200: #7FC6EA;
+$dandelion-50: #FEF8E2;
+$dandelion-100: #FDEBB6;
+$dandelion-200: #FDDE88;
+$dandelion-300: #FCD35A;
+$dandelion-400: #FBC73B;
+$dandelion-500: #FABF2C;
+$dandelion-600: #F9B127;
+$coral-50: #F9EEEF;
+$coral-100: #FFD8D2;
+$coral-200: #FFC3BA;
+$coral-300: #FF988B;
+$coral-400: #FF7160;
+$coral-500: #F96155;
+$coral-600: #E24D48;
+$coral-700: #BD494A;
+$coral-800: #9A3842;
+$coral-900: #6B2837;
 $coral-950: #422439;
-$seaweed-50: #d6f9f3;
-$seaweed-200: #9fe9dc;
-$seaweed-300: #85d9c9;
-$seaweed-400: #30c9ad;
-$seaweed-500: #0cba9d;
-$seaweed-600: #00a587;
-$seaweed-700: #00977a;
-$seaweed-800: #00765b;
-$seaweed-900: #00593f;
-$strawberry-fields-50: #f9e4e6;
-$strawberry-fields-100: #f1bbc1;
-$strawberry-fields-200: #e7919a;
-$strawberry-fields-300: #db6a74;
-$creamsicle-25: #f9f7f6;
-$creamsicle-50: #fff6eb;
-$creamsicle-75: #fff0df;
-$creamsicle-100: #ffe3c2;
-$creamsicle-150: #ffcb96;
-$creamsicle-200: #ffa878;
-$creamsicle-300: #fa8742;
-$grey-95: #f8f8f8;
-$grey-100: #f7f9fa;
-$grey-200: #eff1f5;
-$grey-250: #e8ebef;
-$grey-300: #d5d9de;
-$grey-400: #bdc6d0;
-$grey-500: #838b95;
-$grey-600: #606b79;
-$grey-700: #32455b;
+$seaweed-50: #D6F9F3;
+$seaweed-200: #9FE9DC;
+$seaweed-300: #85D9C9;
+$seaweed-400: #30C9AD;
+$seaweed-500: #0CBA9D;
+$seaweed-600: #00A587;
+$seaweed-700: #00977A;
+$seaweed-800: #00765B;
+$seaweed-900: #00593F;
+$strawberry-fields-50: #F9E4E6;
+$strawberry-fields-100: #F1BBC1;
+$strawberry-fields-200: #E7919A;
+$strawberry-fields-300: #DB6A74;
+$creamsicle-25: #F9F7F6;
+$creamsicle-50: #FFF6EB;
+$creamsicle-75: #FFF0DF;
+$creamsicle-100: #FFE3C2;
+$creamsicle-150: #FFCB96;
+$creamsicle-200: #FFA878;
+$creamsicle-300: #FA8742;
+$grey-95: #F8F8F8;
+$grey-100: #F7F9FA;
+$grey-200: #EFF1F5;
+$grey-250: #E8EBEF;
+$grey-300: #D5D9DE;
+$grey-400: #BDC6D0;
+$grey-500: #838B95;
+$grey-600: #606B79;
+$grey-700: #32455B;
 $grey-800: #233043;
-$grey-900: #19222f;
+$grey-900: #19222F;
 
 /**
-  * @tokens Font Families
-  * @presenter FontFamily
-  */
+ * @tokens FontFamily
+ * @presenter FontFamily 
+ */
 $primary-font-family: Inter;
 $secondary-font-family: GT-Walsheim;
 
 /**
-  * @tokens Font Weights
-  * @presenter FontWeight
-  */
+ * @tokens FontWeight
+ * @presenter FontWeight 
+ */
 $font-weight-regular: normal;
 $font-weight-medium: 500;
 $font-weight-semi-bold: 600;
 $font-weight-bold: 700;
 
 /**
-  * @tokens Font Sizes
-  * @presenter FontSize
-  */
-
+ * @tokens FontSize
+ * @presenter FontSize 
+ */
 $font-size-1: 1rem;
 $font-size-2: 1.2rem;
 $font-size-3: 1.4rem;
@@ -98,9 +98,9 @@ $font-size-9: 3.2rem;
 $font-size-10: 4.8rem;
 
 /**
-  * @tokens Line Heights
-  * @presenter LineHeight
-  */
+ * @tokens LineHeight
+ * @presenter LineHeight 
+ */
 $line-height-xxxl: 1.5;
 $line-height-xxl: 1.4285;
 $line-height-xl: 1.33;
@@ -112,8 +112,27 @@ $line-height-xxs: 1.14;
 $line-height-xxxs: 1.125;
 
 /**
- * @tokens Shadow
- * @presenter Shadow 
+ * @tokens MediaQuery 
+ */
+$breakpoints-sm: 600px;
+$breakpoints-md: 768px;
+$breakpoints-lg: 992px;
+$breakpoints-xl: 1200px;
+$breakpoints-xxl: 1440px;
+
+/**
+ * @tokens BorderRadius
+ * @presenter BorderRadius 
+ */
+$border-radius-none: 0;
+$border-radius-xs: 0.2rem;
+$border-radius-sm: 0.4rem;
+$border-radius-md: 0.6rem;
+$border-radius-xl: 1.6rem;
+$border-radius-card: 0.4rem;
+
+/**
+ * @tokens Shadow 
  */
 $shadow-6: 0 0.1rem 0.6rem 0 rgba(#233043, 0.1);
 $shadow-12: 0 0.4rem 1rem 0.4rem rgba(#233043, 0.1);
@@ -136,18 +155,7 @@ $space-9: 8rem;
 $space-10: 9.6rem;
 
 /**
- * @tokens BorderRadius
- * @presenter BorderRadius 
- */
-$border-radius-none: 0;
-$border-radius-xs: 0.2rem;
-$border-radius-sm: 0.4rem;
-$border-radius-md: 0.6rem;
-$border-radius-xl: 1.6rem;
-$border-radius-card: 0.4rem;
-
-/**
- * @tokens ZIndex
+ * @tokens ZIndex 
  */
 $z-index-0: 0;
 $z-index-10: 10;
@@ -163,12 +171,3 @@ $z-index-100: 100;
 $z-index-min: -1;
 $z-index-max: 999;
 $z-index-auto: auto;
-
-/**
- * @tokens MediaQuery
- */
-$breakpoints-sm: 600px;
-$breakpoints-md: 768px;
-$breakpoints-lg: 992px;
-$breakpoints-xl: 1200px;
-$breakpoints-xxl: 1440px;

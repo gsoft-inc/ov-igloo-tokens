@@ -1,10 +1,10 @@
 {
   "border-radius": {
-    "none": { "value": "0" },
-    "xs": { "value": "2" },
-    "sm": { "value": "4" },
-    "md": { "value": "6" },
-    "xl": { "value": "16" },
-    "card": { "value": "{border-radius.sm.value}" }
+    "none": { "value": "0", "group": "borderRadius" },
+    "xs": { "value": "2", "group": "borderRadius" },
+    "sm": { "value": "4", "group": "borderRadius" },
+    "md": { "value": "6", "group": "borderRadius" },
+    "xl": { "value": "16", "group": "borderRadius" },
+    "card": { "value": "{border-radius.sm.value}", "group": "borderRadius" }
   }
 }
