@@ -1,4 +1,5 @@
 .github
+.storybook
 .husky
 .changeset
 .eslintrc.cjs
@@ -8,6 +9,7 @@
 tokens
 assets
 docs
+stories
 storybook-static
 node_modules
 
