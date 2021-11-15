@@ -76,5 +76,7 @@
     "700": { "value": "#32455B", "group": "color" },
     "800": { "value": "#233043", "group": "color" },
     "900": { "value": "#19222F", "group": "color" }
-  }
+  },
+  "black": { "value": "#000000", "group": "color" },
+  "samoyed": { "value": "#ffffff", "group": "color" }
 }
