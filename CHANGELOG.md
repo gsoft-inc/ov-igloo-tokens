@@ -1,5 +1,11 @@
 # @igloo-ui/tokens
 
+## 0.2.0
+
+### Minor Changes
+
+- 1abafb9: Add black and white color
+
 ## 0.1.1
 
 ### Patch Changes
