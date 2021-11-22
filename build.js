@@ -110,12 +110,18 @@ StyleDictionary.registerTransform({
       token.attributes.category === 'border-radius'
     );
   },
-  transformer: function (token) {
+  transformer: function (token, options) {
     if (parseInt(token.original.value) === 0) {
       return token.original.value;
     }
 
-    const base = 10;
+    let base;
+    if (options.options?.base10) {
+      base = 10;
+    } else {
+      base = 16;
+    }
+
     return `${parseInt(token.value) / base}rem`;
   },
 });

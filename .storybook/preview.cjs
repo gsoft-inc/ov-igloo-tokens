@@ -1,5 +1,5 @@
 const tokenContext = require.context(
-  '!!raw-loader!../docs',
+  '!!raw-loader!../docs/base10',
   true,
   /.\.(css|less|scss|svg)$/
 );
