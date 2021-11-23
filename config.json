@@ -19,7 +19,10 @@
           "destination": "variables.css",
           "format": "css/variables"
         }
-      ]
+      ],
+      "options": {
+        "size": 16
+      }
     },
     "docs": {
       "transformGroup": "custom/scss",
@@ -40,6 +43,58 @@
           "format": "json"
         }
       ]
+    },
+    "scss/10": {
+      "transformGroup": "custom/scss",
+      "buildPath": "dist/base10/",
+      "files": [
+        {
+          "destination": "_variables.scss",
+          "format": "scss/variables"
+        }
+      ],
+      "options": {
+        "base10": true
+      }
+    },
+    "css/10": {
+      "transformGroup": "custom/css",
+      "buildPath": "dist/base10/",
+      "files": [
+        {
+          "destination": "variables.css",
+          "format": "css/variables"
+        }
+      ],
+      "options": {
+        "base10": true
+      }
+    },
+    "docs/10": {
+      "transformGroup": "custom/scss",
+      "buildPath": "docs/base10/",
+      "files": [
+        {
+          "destination": "tokens.scss",
+          "format": "custom/doc"
+        }
+      ],
+      "options": {
+        "base10": true
+      }
+    },
+    "json/10": {
+      "transformGroup": "custom/scss",
+      "buildPath": "docs/base10/",
+      "files": [
+        {
+          "destination": "tokens.json",
+          "format": "json"
+        }
+      ],
+      "options": {
+        "base10": true
+      }
     }
   }
 }
