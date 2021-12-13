@@ -12,5 +12,9 @@
       "value": "0 1rem 1.8rem 0.8rem rgba(35, 48, 67, 0.1)",
       "group": "shadow"
     }
+  },
+  "focus": {
+    "value": "0 0 0 2px {samoyed.value}, 0 0 0 3.5px {electric-blue.600.value}",
+    "group": "focus"
   }
 }
