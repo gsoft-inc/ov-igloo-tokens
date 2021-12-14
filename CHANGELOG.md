@@ -1,5 +1,11 @@
 # @igloo-ui/tokens
 
+## 1.1.0
+
+### Minor Changes
+
+- b1a4aa0: Adding a focus token
+
 ## 1.0.0
 
 ### Major Changes
