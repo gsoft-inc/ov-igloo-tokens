@@ -141,6 +141,12 @@ $shadow-12: 0 0.4rem 1rem 0.4rem rgba(35, 48, 67, 0.1);
 $shadow-24: 0 1rem 1.8rem 0.8rem rgba(35, 48, 67, 0.1);
 
 /**
+ * @tokens Focus
+ * @presenter Focus 
+ */
+$focus: 0 0 0 2px #ffffff, 0 0 0 3.5px #0C46D0;
+
+/**
  * @tokens Spacing
  * @presenter Spacing 
  */
