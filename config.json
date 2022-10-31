@@ -44,6 +44,16 @@
         }
       ]
     },
+    "json/dist": {
+      "transformGroup": "custom/scss",
+      "buildPath": "dist/",
+      "files": [
+        {
+          "destination": "tokens.json",
+          "format": "json"
+        }
+      ]
+    },
     "scss/10": {
       "transformGroup": "custom/scss",
       "buildPath": "dist/base10/",
@@ -86,6 +96,19 @@
     "json/10": {
       "transformGroup": "custom/scss",
       "buildPath": "docs/base10/",
+      "files": [
+        {
+          "destination": "tokens.json",
+          "format": "json"
+        }
+      ],
+      "options": {
+        "base10": true
+      }
+    },
+    "json/dist/10": {
+      "transformGroup": "custom/scss",
+      "buildPath": "dist/base10/",
       "files": [
         {
           "destination": "tokens.json",
