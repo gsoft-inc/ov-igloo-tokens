@@ -1,5 +1,11 @@
 # @igloo-ui/tokens
 
+## 1.2.0
+
+### Minor Changes
+
+- 749642e: Added tokens in json format to dist folder
+
 ## 1.1.1
 
 ### Patch Changes
