@@ -50,7 +50,7 @@
       "files": [
         {
           "destination": "tokens.json",
-          "format": "json"
+          "format": "custom/json"
         }
       ]
     },
@@ -112,7 +112,7 @@
       "files": [
         {
           "destination": "tokens.json",
-          "format": "json"
+          "format": "custom/json"
         }
       ],
       "options": {

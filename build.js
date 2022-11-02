@@ -62,6 +62,19 @@ StyleDictionary.registerFormat({
 });
 
 StyleDictionary.registerFormat({
+  name: 'custom/json',
+  formatter: function ({ dictionary }) {
+
+    const result = {};
+    dictionary.allTokens.map((token) => {
+      result[token.name] = token.value;
+    });
+
+    return JSON.stringify(result, null, 2);
+  },
+});
+
+StyleDictionary.registerFormat({
   name: 'custom/doc',
   formatter: function ({ dictionary }) {
     const groups = handleGroups(dictionary.allTokens);
