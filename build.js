@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import StyleDictionary from 'style-dictionary';
+import camelcase from 'camelcase';
 
 const dirname = path.dirname('');
 
@@ -67,7 +68,8 @@ StyleDictionary.registerFormat({
 
     const result = {};
     dictionary.allTokens.map((token) => {
-      result[token.name] = token.value;
+      const tokenName = camelcase(token.name);
+      result[tokenName] = token.value;
     });
 
     return JSON.stringify(result, null, 2);
