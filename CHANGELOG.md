@@ -1,5 +1,11 @@
 # @igloo-ui/tokens
 
+## 2.0.0
+
+### Major Changes
+
+- 5c76f91: BRAKING CHANGE Rename the tokens key on camelCase
+
 ## 1.3.0
 
 ### Minor Changes
