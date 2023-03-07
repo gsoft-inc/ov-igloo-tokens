@@ -42,5 +42,8 @@
     "extends": [
       "@commitlint/config-conventional"
     ]
+  },
+  "dependencies": {
+    "camelcase": "^7.0.1"
   }
 }
