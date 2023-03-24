@@ -10,7 +10,6 @@
     "build": "node ./build.js",
     "clean": "rm -rf dist",
     "lint": "eslint *.js",
-    "format": "prettier -w src/*",
     "changeset": "changeset",
     "version-packages": "changeset version",
     "release": "yarn build && changeset publish"
@@ -30,22 +29,21 @@
   },
   "homepage": "https://github.com/gsoft-inc/igloo-ui-tokens#readme",
   "devDependencies": {
-    "@babel/core": "^7.14.6",
-    "@changesets/cli": "^2.16.0",
+    "@babel/core": "^7.21.0",
+    "@changesets/cli": "^2.26.0",
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
-    "babel-loader": "^8.2.2",
-    "eslint": "^7.28.0",
-    "eslint-config-prettier": "^8.3.0",
-    "gh-pages": "^3.2.3",
-    "prettier": "2.3.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "style-dictionary": "^3.0.1"
+    "babel-loader": "^9.1.2",
+    "eslint": "^8.35.0",
+    "eslint-config-prettier": "^8.7.0",
+    "style-dictionary": "^3.7.2"
   },
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
     ]
+  },
+  "dependencies": {
+    "camelcase": "^7.0.1"
   }
 }
