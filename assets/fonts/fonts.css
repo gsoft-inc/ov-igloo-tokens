@@ -1,64 +1,9 @@
 @font-face {
-  font-weight: 100;
-  font-family: 'Inter';
-  font-style: normal;
-  src: url('https://cdn.officevibe.com/assets/Fonts/Inter-Thin.ttf');
-}
-
-@font-face {
-  font-weight: 200;
-  font-family: 'Inter';
-  font-style: normal;
-  src: url('https://cdn.officevibe.com/assets/Fonts/Inter-ExtraLight.ttf');
-}
-
-@font-face {
-  font-weight: 300;
-  font-family: 'Inter';
-  font-style: normal;
-  src: url('https://cdn.officevibe.com/assets/Fonts/Inter-Light.ttf');
-}
-
-@font-face {
-  font-weight: 400;
-  font-family: 'Inter';
-  font-style: normal;
-  src: url('https://cdn.officevibe.com/assets/Fonts/Inter-Regular.ttf');
-}
-
-@font-face {
-  font-weight: 500;
-  font-family: 'Inter';
-  font-style: normal;
-  src: url('https://cdn.officevibe.com/assets/Fonts/Inter-Medium.ttf');
-}
-
-@font-face {
-  font-weight: 600;
-  font-family: 'Inter';
-  font-style: normal;
-  src: url('https://cdn.officevibe.com/assets/Fonts/Inter-SemiBold.ttf');
-}
-
-@font-face {
-  font-weight: 700;
-  font-family: 'Inter';
-  font-style: normal;
-  src: url('https://cdn.officevibe.com/assets/Fonts/Inter-Bold.ttf');
-}
-
-@font-face {
-  font-weight: 800;
-  font-family: 'Inter';
-  font-style: normal;
-  src: url('https://cdn.officevibe.com/assets/Fonts/Inter-ExtraBold.ttf');
-}
-
-@font-face {
-  font-weight: 900;
-  font-family: 'Inter';
-  font-style: normal;
-  src: url('https://cdn.officevibe.com/assets/Fonts/Inter-Black.ttf');
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 100 900;
+	src: url("https://cdn.platform.workleap.com/hopper/fonts/inter/v4/InterVariable.woff2") format("woff2-variations");
+	font-display: fallback;
 }
 
 @font-face {
