@@ -1,5 +1,11 @@
 # @igloo-ui/tokens
 
+## 2.1.0
+
+### Minor Changes
+
+- 4a55180: Fixed the Inter font declaration to use a woff2 variable font'
+
 ## 2.0.0
 
 ### Major Changes
